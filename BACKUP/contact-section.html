@@ -1,0 +1,98 @@
+<!--
+	=====================================================
+		Contact Section
+	=====================================================
+	-->
+<div id="contact-section">
+    <div class="container">
+        <div class="clear-fix contact-address-content">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="left-side">
+                    <h2>Contato</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majori have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a pas
+                        of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <div class="icon tran3s round-border p-color-bg"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <h6>Endereço</h6>
+                            <p>Rua, número, cidade, estado, cep</p>
+                        </li>
+                        <li>
+                            <div class="icon tran3s round-border p-color-bg"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
+                            <h6>Whatsapp</h6>
+                            <p>+55 11 99876-5432</p>
+                        </li>
+                        <li>
+                            <div class="icon tran3s round-border p-color-bg"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                            <h6>E-mail</h6>
+                            <p>administracao@kyokushinemmovimento.com.br</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.left-side -->
+            </div>
+            <!-- /.col- -->
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="map-area">
+                    <h2>Localização</h2>
+                    <div id="map"></div>
+                </div>
+                <!-- /.map-area -->
+            </div>
+            <!-- /.col- -->
+        </div>
+        <!-- /.contact-address-content -->
+
+
+
+        <!-- Contact Form -->
+        <div class="send-message">
+            <h2>Deixe uma mensagem</h2>
+
+            <form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
+                <div class="row">
+                    <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-input">
+                            <input type="text" placeholder="Nome" name="Fname">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-input">
+                            <input type="email" placeholder="E-mail" name="email">
+                        </div>
+                    </div>
+                </div>
+                <textarea placeholder="Mensagem" name="message"></textarea>
+                <button class="tran3s p-color-bg">Enviar</button>
+            </form>
+
+            <!-- Contact Form Validation Markup -->
+            <!-- Contact alert -->
+            <div class="alert-wrapper" id="alert-success">
+                <div id="success">
+                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="wrapper">
+                        <p>Sua mensagem foi enviada com sucesso! Nossa equipe agradeçe o contato!.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of .alert_wrapper -->
+            <div class="alert-wrapper" id="alert-error">
+                <div id="error">
+                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="wrapper">
+                        <p>Ops!! Alguma coisa deu errado. Tente novamente mais tarde!.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of .alert_wrapper -->
+        </div>
+        <!-- /.send-message -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /#contact-section -->
