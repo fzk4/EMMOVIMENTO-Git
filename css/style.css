@@ -1289,21 +1289,24 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
-/*#partner-section {
-  margin: 100px 0 0 0;
+ #partner-section2 {
+  margin: 100 0 0 0;
   background: #f9f9f9;
   padding: 50px 0;
 }
-#partner-section .item {
+#partner-section2 .item {
   border:1px solid #dfdfdf;
-  height: 118px;
-  padding-top: 22px;
+  height: 235px;
+  padding: 5px 5px 5px 5px;
 }
-#partner-section .item img {
+#partner-section2 .item img {
   margin: 0 auto;
-}*/
+}
+
+/**/
+
 #partner-section {
-  margin: 0 0 0 0;
+  margin: 100 0 0 0;
   background: #f9f9f9;
   padding: 50px 0;
 }

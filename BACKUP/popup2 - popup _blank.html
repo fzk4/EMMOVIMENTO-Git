@@ -1,0 +1,14 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Exemplo PopUp</title>
+	<script language="javascript">
+		function abrePopUp(urlImagem){
+			window.open(urlImagem,'Foto_Ampliada','toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=400,height=400');
+		}
+	</script>
+</head>
+	<body>
+		<img src="url_imagem_reduzida" onclick="abrePopUp('url_imagem_original');">
+	</body>
+</html>
