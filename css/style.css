@@ -12,27 +12,28 @@
 /* ------------------------------------------ */
 /*             TABLE OF CONTENTS
 /* ------------------------------------------ */
-/*   00 - Mouse scroll */
-/*   01 - Loading Transition  */
-/*   02 - Click To Top  */
-/*   03 - Global Settings */
-/*   04 - Theme Header */
-/*   05 - Theme Main Banner */
-/*   06 - About section */
-/*   07 - Service section  */
-/*   08 - Project section  */
-/*   09 - Page Middle Banner  */
-/*   10 - Team Section  */
-/*   11 - Skill Section  */
-/*   12 - Our Client  */
-/*   13 - Pricing Section  */
-/*   14 - Blog Section  */
-/*   15 - Partner Section  */
-/*   16 - Contact Section  */
-/*   17 - Footer */
-/*   18 - Inner Page Banner  */
-/*   19 - Blog Aside bar */
-/*   20 - Blog Details Post */
+/*   00 - Mouse scroll                        */
+/*   00 - alinhanocentro                      */
+/*   01 - Loading Transition                  */
+/*   02 - Click To Top                        */
+/*   03 - Global Settings                     */
+/*   04 - Theme Header                        */
+/*   05 - Theme Main Banner                   */
+/*   06 - About section                       */
+/*   07 - Service section                     */
+/*   08 - Project section                     */
+/*   09 - Page Middle Banner                  */
+/*   10 - Team Section                        */
+/*   11 - Skill Section                       */
+/*   12 - Our Client                          */
+/*   13 - Pricing Section                     */
+/*   14 - Blog Section                        */
+/*   15 - Partner Section                     */
+/*   16 - Contact Section                     */
+/*   17 - Footer                              */
+/*   18 - Inner Page Banner                   */
+/*   19 - Blog Aside bar                      */
+/*   20 - Blog Details Post                   */
 
 
 
@@ -131,6 +132,17 @@
     top: 25px;
     opacity: 0;
   }
+}
+
+/*** 
+====================================================================
+  alinhanocentro
+====================================================================
+ ***/
+ .alinhanocentro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*** 

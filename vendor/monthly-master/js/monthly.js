@@ -27,8 +27,8 @@ Monthly 2.0.7 by Kevin Thornbloom is licensed under a Creative Commons Attributi
 				currentMonth = d.getMonth() + 1,
 				currentYear = d.getFullYear(),
 				currentDay = d.getDate(),
-				monthNames = options.monthNames || ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-				dayNames = options.dayNames || ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+				monthNames = options.monthNames || ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+				dayNames = options.dayNames || ['Dom','Seg','Ter','Qua','Qui','Sex','Sab'];
 
 		if (options.maxWidth != false){
 			$('#'+uniqueId).css('maxWidth',options.maxWidth);
